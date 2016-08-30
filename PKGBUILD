@@ -22,8 +22,8 @@ md5sums=('dbef70de4a1a4bdd78ab7c6547e5211d')
 build() {
     cd ${srcdir}/openssl-${pkgver}
     ./config --prefix="/usr/local/superdachs-openssl" shared
-    make -j 8 depend
-    make -j 8 all
+    make -j $(nproc) depend
+    make -j $(nproc) all
 }
 
 package() {
