@@ -4,7 +4,7 @@
 pkgname=superdachs-openssl
 pkgver=1.1.0
 pkgrel=2
-pkgdesc="openssl shd"
+pkgdesc="openssl with libs"
 arch=(x86_64)
 url="https://github.com/superdachs/superdachs-openssl"
 license=('GPL')
